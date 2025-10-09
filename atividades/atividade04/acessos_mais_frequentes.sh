@@ -3,7 +3,7 @@
 #Crie um script chamado acessos_mais_frequentes.sh que mostre o endereço IP 
 #que mais vezes acessou o servidor.
 
-_acessos="/home/guilhermeo.lima/Documentos/script/atividades/atividade04/acessos.log "
+_acessos="/mnt/sda3_dados/#/UFC/repository/scripts_shell/atividades/atividade04/acessos.log "
 
 _ipMasFrequente=$(
     cat "$_acessos" |

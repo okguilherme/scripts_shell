@@ -2,7 +2,7 @@
 
 #Um script chamado soma.sh que faça a soma valor total dos produtos comprados.
 
-_compras="/home/guilhermeo.lima/Documentos/script/atividades/atividade04/compras.txt"
+_compras="/mnt/sda3_dados/#/UFC/repository/scripts_shell/atividades/atividade04/compras.txt"
 
 
 # 1. 'cat' e 'tail -n +2': Exibe o conteúdo e remove a linha de cabeçalho.

@@ -2,7 +2,7 @@
 
 # Um script chamado loja.sh que mostre o nome da loja que teve o produto mais caro.
 
-_compras="/home/guilhermeo.lima/Documentos/script/atividades/atividade04/compras.txt"
+_compras="/mnt/sda3_dados/#/UFC/repository/scripts_shell/atividades/atividade04/compras.txt"
 
 #tail -n +2 → tira o cabeçalho.
 #sort -t',' -k2 -nr → ordena por campo 2 numericamente e em ordem decrescente (use -k2,2 para maior precisão).
