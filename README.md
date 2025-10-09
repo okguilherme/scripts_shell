@@ -12,7 +12,6 @@ Os códigos aqui presentes foram criados com o objetivo de praticar conceitos e 
 - Estruturas de controle  
 - Manipulação de arquivos  
 - Automação de tarefas  
-- Scripts em [especificar linguagem, ex: Python, Bash, JavaScript, etc.]
 
 ---
 
