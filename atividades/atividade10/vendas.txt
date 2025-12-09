@@ -1,0 +1,6 @@
+Produto;PrecoUnitario;Quantidade
+Teclado;50;10
+Mouse;20;5
+Monitor;800;2
+Cabo HDMI;15;3
+Webcam;150;4
