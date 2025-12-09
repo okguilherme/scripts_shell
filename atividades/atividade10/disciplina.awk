@@ -25,7 +25,7 @@ NR > 1 {
     printf "%s: %s: %.1f\n", $1, situacao, media
 }
 
-# 5. Média Geral das Provas
+# Média Geral das Provas
 END {
     # O número de registros de alunos é (NR - 1), pois a primeira linha é o cabeçalho.
     num_alunos = NR - 1
