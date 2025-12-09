@@ -1,16 +1,13 @@
-# 1. Separador de Campo (-F:) é definido na linha de comando.
-
-# 2. Cabeçalho (BEGIN)
 BEGIN {
     print "Aluno: Situação: Média"
 }
 
-# Bloco de Ação Principal (executado para cada linha, exceto a primeira, que é o cabeçalho)
+# Ação Principal 
 NR > 1 {
-    # 3. Cálculo da Média
+    
     media = ($2 + $3 + $4) / 3
 
-    # 4. Situação do Aluno (if/else)
+    # Situação do Aluno
     if (media >= 7.0) {
         situacao = "Aprovado"
     } else if (media >= 5.0 && media < 7.0) {
@@ -28,7 +25,7 @@ NR > 1 {
     printf "%s: %s: %.1f\n", $1, situacao, media
 }
 
-# 5. Média Geral das Provas (END)
+# 5. Média Geral das Provas
 END {
     # O número de registros de alunos é (NR - 1), pois a primeira linha é o cabeçalho.
     num_alunos = NR - 1

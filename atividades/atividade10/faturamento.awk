@@ -1,6 +1,4 @@
-# O Separador de Campo (-F;) será definido na linha de comando.
-
-# Bloco de Ação Principal (executado para cada linha, exceto o cabeçalho)
+# Ação Principal 
 NR > 1 {
     # $1 = Produto, $2 = PrecoUnitario, $3 = Quantidade
     
